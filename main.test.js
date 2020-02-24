@@ -1,24 +1,12 @@
 const {
-  changeLast,
   addMeToStart,
   addMeToEnd,
+  changeLast,
   changeAllValuesTo,
   oddOrEven,
   changeNextThreeToValue,
 } = require('./main.js')
 
-
-describe('changeLast', () => {
-  it('changes the last element in the given array to the given value', () => {
-    const arr1 = [1, 2, 3];
-    changeLast(arr1, 5);
-    expect(arr1).toEqual([1, 2, 5])
-    
-    const arr2 = [1, 2];
-    changeLast(arr2, 5);
-    expect(arr2).toEqual([1, 5]);
-  })
-})
 
 describe('addMeToEnd', () => {
   it('adds "Colin" to the end of a given array', () => {
@@ -41,6 +29,18 @@ describe('addMeToStart', () => {
     const arr2 = [2, 2, 3];
     addMeToStart(arr2);
     expect(arr2).toEqual(['Colin', 2, 2, 3])
+  })
+})
+
+describe('changeLast', () => {
+  it('changes the last element in the given array to the given value', () => {
+    const arr1 = [1, 2, 3];
+    changeLast(arr1, 5);
+    expect(arr1).toEqual([1, 2, 5])
+    
+    const arr2 = [1, 2];
+    changeLast(arr2, 5);
+    expect(arr2).toEqual([1, 5]);
   })
 })
 
