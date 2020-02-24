@@ -1,26 +1,40 @@
-function changeLast() {
+/******************
+ * YOUR CODE HERE *
+ ******************/
 
+
+
+
+
+/*********************************
+ * OUR CODE BELOW; DO NOT TOUCH! *
+ *********************************/
+
+
+if (typeof changeLast === 'undefined') {
+  changeLast = undefined;
 }
 
-function addMeToEnd() {
-
+if (typeof addMeToEnd === 'undefined') {
+  addMeToEnd = undefined;
 }
 
-function addMeToStart() {
-
+if (typeof addMeToStart === 'undefined') {
+  addMeToStart = undefined;
 }
 
-function changeAllValuesTo() {
-
+if (typeof changeAllValuesTo === 'undefined') {
+  changeAllValuesTo = undefined;
 }
 
-function oddOrEven() {
-
+if (typeof oddOrEven === 'undefined') {
+  oddOrEven = undefined;
 }
 
-function changeNextThreeToValue() {
-
+if (typeof changeNextThreeToValue === 'undefined') {
+  changeNextThreeToValue = undefined;
 }
+
 
 module.exports = {
   changeLast,
