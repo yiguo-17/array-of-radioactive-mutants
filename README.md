@@ -15,7 +15,7 @@ Today we'll be exploring that by making functions that mutate the array passed i
 
 ### Guidelines
 
-1. Remember that you won't be `return`ing in this set of functions, just mutating the original array. Check `main.test.js` to see how we're using your function--we just pass in an array and then check if that array now contains the set of values we expected.
+Remember that you won't be `return`ing in this set of functions, just mutating the original array. Check `main.test.js` to see how we're using your function--we just pass in an array and then check if that array now contains the set of values we expected.
 
 
 ### Setup
