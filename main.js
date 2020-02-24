@@ -11,16 +11,16 @@
  *********************************/
 
 
-if (typeof changeLast === 'undefined') {
-  changeLast = undefined;
-}
-
 if (typeof addMeToEnd === 'undefined') {
   addMeToEnd = undefined;
 }
 
 if (typeof addMeToStart === 'undefined') {
   addMeToStart = undefined;
+}
+
+if (typeof changeLast === 'undefined') {
+  changeLast = undefined;
 }
 
 if (typeof changeAllValuesTo === 'undefined') {
@@ -37,9 +37,9 @@ if (typeof changeNextThreeToValue === 'undefined') {
 
 
 module.exports = {
-  changeLast,
   addMeToEnd,
   addMeToStart,
+  changeLast,
   changeAllValuesTo,
   oddOrEven,
   changeNextThreeToValue,
