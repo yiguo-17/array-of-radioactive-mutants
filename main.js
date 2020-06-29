@@ -1,7 +1,24 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function addMeToEnd(arr){
+  return arr.push('Colin' );
+}
 
+function addMeToEnd(arr){
+  return arr.unshift('Colin' );
+}
+
+function changeLast(arr, value){
+  return arr.splice(-1, 1; value)
+}
+
+function changeAllValuesTo(arr, value){
+  for(i=0;i<arr.length;i++){
+    arr[i] = value
+  }
+  return are
+}
 
 
 
