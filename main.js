@@ -10,7 +10,7 @@ function addMeToEnd(arr){
 }
 
 function changeLast(arr, value){
-  return arr.splice(-1, 1; value)
+  return arr.splice(-1, 1,value)
 }
 
 function changeAllValuesTo(arr, value){
@@ -20,7 +20,7 @@ function changeAllValuesTo(arr, value){
   return are
 }
 
-function oddOrEven{arr}{
+function oddOrEven(arr){
   for(i =0; i<arr.length; i++){
     if(arr[i]%2 ===0){arr[i]='Even'}
     else{arr[i]='Odd'}
