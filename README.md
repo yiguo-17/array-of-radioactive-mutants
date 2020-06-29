@@ -6,16 +6,16 @@ One of the aspects that confuses people when first learning arrays is that they 
 
 `array.push(5)`
 
-and now `array` has a different value, but you can pass `array` into a function that uses that same line on its parameter, and your `array` after calling tthat function will have a different value as well.
+And now `array` has a different value, but you can pass `array` into a function that uses that same line on its parameter, and your `array` after calling that function will have a different value as well.
 
 The key here is that it doesn't _actually_ hold a different value--it's still the same old `array` it was before! But now its added a new index to its internal list and added the new value you've given it there.
 
-Today we'll be exploring that by making functions that mutate the array passed in. But remember that this is an "antipattern"--you shouldn't be doing this in production code, as it's an unexpected behavior that _overwrites_ rather than gives back a new version of your app's all-important data. And these mutations can be very difficult to track down! So don't try this at home, please.
+Today we'll be exploring that by making functions that mutate the array passed in. But remember that this is an "anti-pattern"--you shouldn't be doing this in production code, as it's an unexpected behavior that _overwrites_ rather than gives back a new version of your app's all-important data. And these mutations can be very difficult to track down! So don't try this at home, please.
 
 
 ### Guidelines
 
-Remember that you won't be `return`ing in this set of functions, just mutating the original array. Check `main.test.js` to see how we're using your function--we just pass in an array and then check if that array now contains the set of values we expected.
+Remember that you won't be `return`-ing in this set of functions, just mutating the original array. Check `main.test.js` to see how we're using your function--we just pass in an array and then check if that array now contains the set of values we expected.
 
 
 ### Setup
@@ -23,7 +23,7 @@ Remember that you won't be `return`ing in this set of functions, just mutating t
 This is a typical test-based assignment, so:
 
 1. Fork and `clone`.
-2. `cd` into the local respository.
+2. `cd` into the local repository.
 3. Run `npm install` and `npm test`.
 4. Make some functions!
 
