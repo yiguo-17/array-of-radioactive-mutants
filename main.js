@@ -20,8 +20,20 @@ function changeAllValuesTo(arr, value){
   return are
 }
 
+function oddOrEven{arr}{
+  for(i =0; i<arr.length; i++){
+    if(arr[i]%2 ===0){arr[i]='Even'}
+    else{arr[i]='Odd'}
+  }
+  return arr;
+}
 
-
+function changeNextThreeToValue(sta,arr,value){
+  for(i=0;i<3;i++){
+    arr[sta+i]= value;
+  }
+  return arr;
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
