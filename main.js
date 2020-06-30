@@ -5,7 +5,7 @@ function addMeToEnd(arr){
   return arr.push('Colin' );
 }
 
-function addMeToEnd(arr){
+function addMeToStart(arr){
   return arr.unshift('Colin' );
 }
 
@@ -17,13 +17,13 @@ function changeAllValuesTo(arr, value){
   for(i=0;i<arr.length;i++){
     arr[i] = value
   }
-  return are
+  return arr
 }
 
 function oddOrEven(arr){
   for(i =0; i<arr.length; i++){
-    if(arr[i]%2 ===0){arr[i]='Even'}
-    else{arr[i]='Odd'}
+    if(arr[i]%2 ===0){arr[i]='even'}
+    else{arr[i]='odd'}
   }
   return arr;
 }
